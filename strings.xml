@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">The Factor Factor</string>
+    <string name="main_menu">Welcome To the World of Numbers</string>
+    <string name="new_game">New Game</string>
+    <string name="no1">1.</string>
+    <string name="input">Enter an integer \n greater than 2</string>
+    <string name="submit">Submit</string>
+    <string name="prompt">Click on the factor</string>
+    <string name="cnt">Continue</string>
+    <string name="ext">Quit</string>
+    <string name="score">Score : </string>
+    <string name="play_game">Play</string>
+    <string name="Last">SCORE</string>
+    <string name="total_qn">Number of questions</string>
+    <string name="final_score">Score</string>
+    <string name="long_streak">Longest Winning Streak</string>
+    <string name="input2">Enter an integer greater than 2</string>
+
+</resources>
