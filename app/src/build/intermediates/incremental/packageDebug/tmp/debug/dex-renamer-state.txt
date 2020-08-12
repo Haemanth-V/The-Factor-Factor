@@ -1,0 +1,4 @@
+#Sat Apr 25 23:07:24 IST 2020
+base.0=C\:\\Users\\VIJI\\AndroidStudioProjects\\TheFactorFactor\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@color/colorAccent"
+    tools:context=".FinalScoresActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="@string/Last"
+        android:textColor="#F61616"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="32dp"
+        android:gravity="right|center"
+        android:textSize="18sp"
+        android:text="@string/final_score" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/textView15"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:gravity="right"
+        android:textSize="18sp"
+        android:text="@string/long_streak" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_above="@id/textView15"
+        android:layout_marginLeft="32dp"
+        android:gravity="right"
+        android:textSize="18sp"
+        android:text=  "@string/total_qn"
+        tools:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:textSize="18sp"
+        android:layout_above="@id/textView18"
+        android:layout_toRightOf="@id/textView14"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="bottom"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/textView15"
+        android:layout_marginLeft="32dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/textView18"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@id/textView16"
+        android:layout_marginRight="16dp"
+        android:textSize="18sp"
+        android:gravity="bottom"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:onClick="exit"
+        android:background="#FFDE03"
+        android:text="exit" />
+
+</RelativeLayout>
