@@ -1,5 +1,7 @@
 # The-Factor-Factor
 
+Delta Summer Mentorship Task 1
+
 This app is a factor game that accepts a 
 number as input from the user, generates 3 
 random options of which exactly one is a 
